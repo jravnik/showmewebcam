@@ -50,7 +50,7 @@ config_frame () {
 
   echo "$WIDTH"                    > "$FRAMEDIR"/wWidth
   echo "$HEIGHT"                   > "$FRAMEDIR"/wHeight
-  echo 333333                      > "$FRAMEDIR"/dwDefaultFrameInterval
+  echo 166667                      > "$FRAMEDIR"/dwDefaultFrameInterval
   echo $((WIDTH * HEIGHT * 80))  > "$FRAMEDIR"/dwMinBitRate
   echo $((WIDTH * HEIGHT * 160)) > "$FRAMEDIR"/dwMaxBitRate
   echo $((WIDTH * HEIGHT * 2))   > "$FRAMEDIR"/dwMaxVideoFrameBufferSize
